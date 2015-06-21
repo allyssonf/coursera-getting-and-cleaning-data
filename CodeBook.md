@@ -13,8 +13,8 @@ These are the steps to complete this project.
 # Script flow
 
  1. Merging training and test sets. It is assumed that the data set file structure lies in the same directory as this script.
- 1.1 The training set is merged using cbind() to bind data to subject.
- 1.2 The test set is merged using cbind() to bind data to subject.
+    1. The training set is merged using cbind() to bind data to subject.
+    2. The test set is merged using cbind() to bind data to subject.
  2. Then we rbind both data sets (rbind())
  3. After that we properly add two column names "Subject" and "Activiy" as these columns were added previously on the merge operation
  4. Then we extract only the measurements on the mean and standard deviation for each measurement.
